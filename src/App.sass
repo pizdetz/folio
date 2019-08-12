@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap');
+
+// Set your brand colors
+$rosy-brown: #BD9391;
+$ash-grey: #ADBABD;
+$dark-sky-bly: #91B7C7;
+$iceberg: #6EB4D1;
+$cafe-noir: #454823;
+$jet: #312F2F;
+$taupe: #4A4238;
+$davysgrey: #4D5359;
+$wintergreen: #508484;
+$etonblue: #79C99E;
+$kiwi: #97DB4F;
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Inconsolata', monospace;
+$family-primary: 'Inconsolata', monospace;
+$family-secondary: 'Montserrat', sans-serif;
+$grey-dark: $taupe;
+$grey-light: $beige-light;
+$primary: $jet;
+$info: $wintergreen;
+$link: $iceberg;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$text: $kiwi;
+
+// Update some of Bulma's component variables
+$body-background-color: $rosy-brown;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/form.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
